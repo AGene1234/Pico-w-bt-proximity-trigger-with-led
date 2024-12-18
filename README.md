@@ -8,7 +8,3 @@ The code does the following when pico is powered:
 - turns off wifi 
 - turns on the bt, broadcastng a custom name 
 - blinks the onboard led every 1 second synchronized with the bt's broadcast rate every 1 second 
-
-Initially chatgpt had it broadcasting at 0.1 seconds but the phone was strugling to see it and then I remember a video where if it was true 
-it was exploiting an iphone's bt by bombarding it with requests to a point it got unlocked, that made me assume that probably android (or samsung) 
-must have some safety rules to ignore or temporarily block a bt that fires so quickly. Once it was set to 1 second it was always easily detectable. 
